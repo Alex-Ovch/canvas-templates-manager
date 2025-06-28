@@ -1,11 +1,11 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import LoginPage from '@/pages/LoginPage.vue'
 import HomePage from '@/pages/HomePage.vue'
 import TemplatePage from '@/pages/TemplatePage.vue'
 import { useAuthStore } from '@/stores/auth'
 
 const router = createRouter({
-  history: createWebHistory('/canvas-templates-manager/'),
+  history: createWebHashHistory('/canvas-templates-manager/'),
   routes: [
     {
       path: '/',
