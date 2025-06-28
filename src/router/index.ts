@@ -5,7 +5,7 @@ import TemplatePage from '@/pages/TemplatePage.vue'
 import { useAuthStore } from '@/stores/auth'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory('/canvas-templates-manager/'),
   routes: [
     {
       path: '/',
